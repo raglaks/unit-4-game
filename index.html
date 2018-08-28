@@ -10,33 +10,34 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="assets/javascript/game.js"></script>
-    <title>Crystals collector</title>
+    <title>Crystal collector</title>
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
+    <div class="container-flow bg-dark">
+        <br>
+        <div class="row bg-dark text-warning">
             <div class="col-lg-1"></div>
             <div class="col-lg-10 text-center">
-                <h1>Crystals Collector</h1>
+                <h1>Crystal Collector</h1>
             </div>
             <div class="col-lg-1"></div>
         </div>
 
         <br>
 
-        <div class="row">
+        <div class="row bg-warning text-dark">
             <div class="col-lg-1"></div>
             <div class="col-lg-10 text-center">
-                <h3>Click the crystals to add up your score. Each crystal is worth a random, hidden value. Aim to get the
-                    <span class="font-weight-bold">exact</span> target score to win.</h3>
+                <h3>Click the crystals to add up your score. Each crystal is worth a random, hidden value every round. Aim to get the
+                    <span class="font-weight-bold">exact</span> target score to win each round.</h3>
             </div>
             <div class="col-lg-1"></div>
         </div>
 
         <br>
 
-        <div class="row">
+        <div class="row bg-dark">
             <div class="col-lg-1"></div>
             <div class="col-lg-10 text-center">
                 <img src="assets/images/2.png" alt="crystal pic 2" id="1" class="crystal">
@@ -49,26 +50,28 @@
 
         <br>
 
-        <div class="row">
+        <div class="row bg-warning">
             <div class="col-lg-1"></div>
             <div class="col-lg-2 text-center">
                 <h4>Target Score</h4>
-                <div id="targetScore"></div>
+                <div class = "text-primary" id="targetScore"></div>
             </div>
             <div class="col-lg-4 text-center">
                 <h4>Your Score</h4>
-                <div id="playerScore"></div>
+                <div class = "text-info" id="playerScore"></div>
             </div>
             <div class="col-lg-2 text-center">
                 <h4>Wins</h4>
-                <div id="wins"></div>
+                <div class = "text-success" id="wins"></div>
             </div>
             <div class="col-lg-2 text-center">
                 <h4>Losses</h4>
-                <div id="losses"></div>
+                <div class = "text-danger" id="losses"></div>
             </div>
             <div class="col-lg-1"></div>
         </div>
+
+        <br>
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
